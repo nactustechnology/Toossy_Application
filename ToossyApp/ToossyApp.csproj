@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="akavache" Version="5.0.0" />
+    <PackageReference Include="akavache.core" Version="5.0.0" />
+    <PackageReference Include="akavache.sqlite3" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    <PackageReference Include="Plugin.Permissions" Version="2.2.1" />
+    <PackageReference Include="Portable.Ninject" Version="3.3.1" />
+    <PackageReference Include="RxProperty" Version="2.9.0" />
+    <PackageReference Include="Stripe.net" Version="13.2.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+    <PackageReference Include="Xam.Plugin.Geolocator" Version="4.2.0" />
+    <PackageReference Include="Xam.Plugins.Vibrate" Version="3.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="2.4.0.91020" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="2.4.0.91020" />
+    <PackageReference Include="XLabs.Forms" Version="2.0.5782" />
+    <PackageReference Include="XLabs.Serialization.JSON" Version="2.0.5782" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\AppResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\AppResources.fr-FR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AppResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApiEndPoint_DEBUG" xml:space="preserve">
+    <value>http://www.toossy.net:3240</value>
+    <comment>192.168.137.1:1337/vps433240.ovh.net:3240</comment>
+  </data>
+  <data name="ApiEndPoint_RELEASE" xml:space="preserve">
+    <value>http://www.toossy.net:3240</value>
+    <comment>vps433240.ovh.net:3240</comment>
+  </data>
+  <data name="DocumentEndPoint_CGU" xml:space="preserve">
+    <value>http://www.toossy.net/documents/CGU.pdf</value>
+  </data>
+  <data name="DocumentEndPoint_CGV" xml:space="preserve">
+    <value>http://www.toossy.net/documents/CGV.pdf</value>
+  </data>
+  <data name="DureeDictionary_FreeLabel" xml:space="preserve">
+    <value>Unlimited</value>
+  </data>
+  <data name="FavoriteDetail_MsgRemoved" xml:space="preserve">
+    <value>The message added to favorite</value>
+  </data>
+  <data name="FavoriteDetail_TitlePage" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="FavoriteList_LoadingMsg" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="FavoriteList_TitlePage" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="Filter_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Filter_distanceHeader" xml:space="preserve">
+    <value>Searching range</value>
+  </data>
+  <data name="Filter_distancePicker" xml:space="preserve">
+    <value>Searching range</value>
+  </data>
+  <data name="Filter_dureeHeader" xml:space="preserve">
+    <value>Itinerary's maximum duration</value>
+  </data>
+  <data name="Filter_dureePicker" xml:space="preserve">
+    <value>Maximum duration</value>
+  </data>
+  <data name="Filter_langueHeader" xml:space="preserve">
+    <value>Itinerary's language</value>
+  </data>
+  <data name="Filter_languePicker" xml:space="preserve">
+    <value>Language(s)</value>
+  </data>
+  <data name="Filter_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Filter_PageTitle" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="Filter_themeHeader" xml:space="preserve">
+    <value>Itinerarys' themes</value>
+  </data>
+  <data name="Filter_themePicker" xml:space="preserve">
+    <value>Themes</value>
+  </data>
+  <data name="Filter_typeParcoursHeader" xml:space="preserve">
+    <value>Itinerary's type</value>
+  </data>
+  <data name="Filter_typeParcoursPicker" xml:space="preserve">
+    <value>Itinerary's types</value>
+  </data>
+  <data name="Filtre_gratuitTarifHeader" xml:space="preserve">
+    <value>Free or paying</value>
+  </data>
+  <data name="Filtre_gratuitTarifPicker" xml:space="preserve">
+    <value>Access categories</value>
+  </data>
+  <data name="Filtre_noteHeader" xml:space="preserve">
+    <value>Minimum note</value>
+  </data>
+  <data name="Filtre_notePicker" xml:space="preserve">
+    <value>Minimum note</value>
+  </data>
+  <data name="GratuitTarifDictionary_AllLabel" xml:space="preserve">
+    <value>Free and paying</value>
+  </data>
+  <data name="GratuitTarifDictionary_FreeLabel" xml:space="preserve">
+    <value>Only free</value>
+  </data>
+  <data name="ImageEndPoint_DEBUG" xml:space="preserve">
+    <value>http://www.toossy.net/images/</value>
+  </data>
+  <data name="ImageEndPoint_RELEASE" xml:space="preserve">
+    <value>http://www.toossy.net/images/</value>
+  </data>
+  <data name="ItineraryDetail_Buy" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="ItineraryDetail_Chargeable" xml:space="preserve">
+    <value>Paying</value>
+  </data>
+  <data name="ItineraryDetail_Duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="ItineraryDetail_Free" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="ItineraryDetail_LoadingMsg" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="ItineraryDetail_PageTitle" xml:space="preserve">
+    <value>Itinerary's details</value>
+  </data>
+  <data name="ItineraryDetail_Paid" xml:space="preserve">
+    <value>Itinerary paid</value>
+  </data>
+  <data name="ItineraryDetail_PreviewMenu" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="ItineraryDetail_Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="ItineraryDetail_Step" xml:space="preserve">
+    <value>Step(s)</value>
+  </data>
+  <data name="ItineraryDetail_Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="ItineraryDetail_Vote" xml:space="preserve">
+    <value>Vote(s)</value>
+  </data>
+  <data name="ItineraryList_buyLabel" xml:space="preserve">
+    <value>Buy</value>
+  </data>
+  <data name="ItineraryList_errorLabel" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ItineraryList_filterButton" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="ItineraryList_itineraryResearchError" xml:space="preserve">
+    <value>List could not be updated, check the network</value>
+    <comment>La liste n'a pas pu être actualisée, vérifiez le réseau.</comment>
+  </data>
+  <data name="ItineraryList_localizationError" xml:space="preserve">
+    <value>GPS position could not be updated, your previous position is used for the request</value>
+    <comment>Impossible d'actualiser la position GPS, votre précédente position est utilisée pour la recherche.</comment>
+  </data>
+  <data name="ItineraryList_menuButton" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="ItineraryList_messageButton" xml:space="preserve">
+    <value>Go to map</value>
+    <comment>Voir carte des messages</comment>
+  </data>
+  <data name="ItineraryList_okLabel" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ItineraryList_paidItineraryUpdateError" xml:space="preserve">
+    <value>Application could not load your prepaid itineraries, please update the list</value>
+    <comment>L'application n'a pas pu charger vos parcours payés, veuillez réactualiser la liste.</comment>
+  </data>
+  <data name="ItineraryList_Payant" xml:space="preserve">
+    <value>Paying</value>
+  </data>
+  <data name="ItineraryList_Paye" xml:space="preserve">
+    <value>Paid</value>
+  </data>
+  <data name="ItineraryList_researchLabel" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ItineraryList_typeOfActivity_Itinerary" xml:space="preserve">
+    <value>Searching for itineraries</value>
+    <comment>Recherche des parcours...</comment>
+  </data>
+  <data name="ItineraryList_typeOfActivity_Localization" xml:space="preserve">
+    <value>Localization...</value>
+  </data>
+  <data name="ItineraryMenu_MemoryFlushed" xml:space="preserve">
+    <value>Memory flushed !</value>
+  </data>
+  <data name="ItineraryMenu_TestItinerarySet" xml:space="preserve">
+    <value>Test itinerary activated</value>
+  </data>
+  <data name="ItineraryMenu_TestItineraryUnset" xml:space="preserve">
+    <value>Test itinerary deactivated</value>
+  </data>
+  <data name="ItineraryPreview_PageTitle" xml:space="preserve">
+    <value>Itinerary's preview</value>
+  </data>
+  <data name="MentionsLegalesPage_link" xml:space="preserve">
+    <value>See Terms and Conditions of Use</value>
+    <comment>Voir les conditions générales d'utilisation</comment>
+  </data>
+  <data name="MentionsLegalesPage_PageTitle" xml:space="preserve">
+    <value>Legal disclaimer</value>
+    <comment>Mentions légales</comment>
+  </data>
+  <data name="MentionsLegalesPage_text" xml:space="preserve">
+    <value>The Application Toossy is published and developed by the company Nactus Technology. By using this application, you accept the terms and conditions of use</value>
+    <comment>L'application Toossy est éditée et développée par la société Nactus Technology. En utilisant l'application vous acceptez les conditions générales d'utilisation.</comment>
+  </data>
+  <data name="MenuPage_ConditionsAndTermsLabel" xml:space="preserve">
+    <value>Legal disclaimer</value>
+    <comment>Mentions légales</comment>
+  </data>
+  <data name="MenuPage_EmptyMemory" xml:space="preserve">
+    <value>Flush memory</value>
+  </data>
+  <data name="MenuPage_FacebookLabel" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="MenuPage_FavoriteLabel" xml:space="preserve">
+    <value>Favorite</value>
+  </data>
+  <data name="MenuPage_TestItinerary" xml:space="preserve">
+    <value>De./Activate test itinerary</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Description" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu enim, euismod eget condimentum non, tempor ac ante. Aliquam finibus lobortis velit quis placerat. Mauris suscipit risus vitae aliquam tincidunt. Nulla facilisi. Sed justo tortor, dictum sed arcu non, euismod rutrum tellus. Mauris id lorem tortor. Integer nec purus in orci elementum sodales eu sed augue. Proin blandit, libero lobortis aliquet hendrerit, metus metus gravida magna, a imperdiet velit dui ut nisi.
+
+Sed mollis tortor blandit, interdum lacus et, ullamcorper nulla. Vestibulum non arcu quis turpis pulvinar porttitor. Nulla facilisi. Donec volutpat hendrerit est vitae mattis. Donec tincidunt congue tincidunt. Aliquam erat lectus, volutpat viverra posuere a, tempus eu augue. Nullam molestie orci vitae mauris malesuada tempus. In pulvinar quam nec ultrices maximus. Phasellus faucibus posuere lectus. Donec maximus vestibulum fringilla. Curabitur elit ex, luctus nec dapibus sit amet, eleifend at sem. Ut imperdiet pellentesque sagittis. Fusce lobortis venenatis arcu eu facilisis.
+
+Proin nec arcu eget nulla tincidunt porta ut at nisl. Donec nulla diam, feugiat id nibh quis, condimentum maximus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex non est egestas fermentum. Aliquam malesuada enim eget aliquet ullamcorper. Proin ornare tempor ex, in semper ligula efficitur eget. Pellentesque iaculis, nisi vitae congue consequat, neque lectus hendrerit est, nec venenatis elit tortor in dolor. Curabitur porttitor commodo nunc in aliquet. Ut semper semper quam quis porta. Praesent malesuada ipsum non vulputate hendrerit.
+
+Nunc tempor convallis maximus. Mauris imperdiet turpis ac mauris interdum, sit amet fermentum dui cursus. Fusce id diam eu ipsum luctus porttitor rhoncus sed massa. Sed vitae massa efficitur, efficitur libero nec, convallis massa. In tempus odio velit, eu venenatis orci dapibus nec. Praesent tincidunt ex sed convallis tincidunt. Donec luctus luctus congue. Orhon</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Description1" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu enim, euismod eget condimentum non, tempor ac ante. Aliquam finibus lobortis velit quis placerat. Mauris suscipit risus vitae aliquam tincidunt. Nulla facilisi. Sed justo tortor, dictum sed arcu non, euismod rutrum tellus. Mauris id lorem tortor. Integer nec purus in orci elementum sodales eu sed augue. Proin blandit, libero lobortis aliquet hendrerit, metus metus gravida magna, a imperdiet velit dui ut nisi.
+
+Sed mollis tortor blandit, interdum lacus et, ullamcorper nulla. Vestibulum non arcu quis turpis pulvinar porttitor. Nulla facilisi. Donec volutpat hendrerit est vitae mattis. Donec tincidunt congue tincidunt. Aliquam erat lectus, volutpat viverra posuere a, tempus eu augue. Nullam molestie orci vitae mauris malesuada tempus. In pulvinar quam nec ultrices maximus. Phasellus faucibus posuere lectus. Donec maximus vestibulum fringilla. Curabitur elit ex, luctus nec dapibus sit amet, eleifend at sem. Ut imperdiet pellentesque sagittis. Fusce lobortis venenatis arcu eu facilisis.
+
+Proin nec arcu eget nulla tincidunt porta ut at nisl. Donec nulla diam, feugiat id nibh quis, condimentum maximus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex non est egestas fermentum. Aliquam malesuada enim eget aliquet ullamcorper. Proin ornare tempor ex, in semper ligula efficitur eget. Pellentesque iaculis, nisi vitae congue consequat, neque lectus hendrerit est, nec venenatis elit tortor in dolor. Curabitur porttitor commodo nunc in aliquet. Ut semper semper quam quis porta. Praesent malesuada ipsum non vulputate hendrerit.
+
+Nunc tempor convallis maximus. Mauris imperdiet turpis ac mauris interdum, sit amet fermentum dui cursus. Fusce id diam eu ipsum luctus porttitor rhoncus sed massa. Sed vitae massa efficitur, efficitur libero nec, convallis massa. In tempus odio velit, eu venenatis orci dapibus nec. Praesent tincidunt ex sed convallis tincidunt. Donec luctus luctus congue. Orhon</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Description2" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu enim, euismod eget condimentum non, tempor ac ante. Aliquam finibus lobortis velit quis placerat. Mauris suscipit risus vitae aliquam tincidunt. Nulla facilisi. Sed justo tortor, dictum sed arcu non, euismod rutrum tellus. Mauris id lorem tortor. Integer nec purus in orci elementum sodales eu sed augue. Proin blandit, libero lobortis aliquet hendrerit, metus metus gravida magna, a imperdiet velit dui ut nisi.
+
+Sed mollis tortor blandit, interdum lacus et, ullamcorper nulla. Vestibulum non arcu quis turpis pulvinar porttitor. Nulla facilisi. Donec volutpat hendrerit est vitae mattis. Donec tincidunt congue tincidunt. Aliquam erat lectus, volutpat viverra posuere a, tempus eu augue. Nullam molestie orci vitae mauris malesuada tempus. In pulvinar quam nec ultrices maximus. Phasellus faucibus posuere lectus. Donec maximus vestibulum fringilla. Curabitur elit ex, luctus nec dapibus sit amet, eleifend at sem. Ut imperdiet pellentesque sagittis. Fusce lobortis venenatis arcu eu facilisis.
+
+Proin nec arcu eget nulla tincidunt porta ut at nisl. Donec nulla diam, feugiat id nibh quis, condimentum maximus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex non est egestas fermentum. Aliquam malesuada enim eget aliquet ullamcorper. Proin ornare tempor ex, in semper ligula efficitur eget. Pellentesque iaculis, nisi vitae congue consequat, neque lectus hendrerit est, nec venenatis elit tortor in dolor. Curabitur porttitor commodo nunc in aliquet. Ut semper semper quam quis porta. Praesent malesuada ipsum non vulputate hendrerit.
+
+Nunc tempor convallis maximus. Mauris imperdiet turpis ac mauris interdum, sit amet fermentum dui cursus. Fusce id diam eu ipsum luctus porttitor rhoncus sed massa. Sed vitae massa efficitur, efficitur libero nec, convallis massa. In tempus odio velit, eu venenatis orci dapibus nec. Praesent tincidunt ex sed convallis tincidunt. Donec luctus luctus congue. Orhon</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Description3" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu enim, euismod eget condimentum non, tempor ac ante. Aliquam finibus lobortis velit quis placerat. Mauris suscipit risus vitae aliquam tincidunt. Nulla facilisi. Sed justo tortor, dictum sed arcu non, euismod rutrum tellus. Mauris id lorem tortor. Integer nec purus in orci elementum sodales eu sed augue. Proin blandit, libero lobortis aliquet hendrerit, metus metus gravida magna, a imperdiet velit dui ut nisi.
+
+Sed mollis tortor blandit, interdum lacus et, ullamcorper nulla. Vestibulum non arcu quis turpis pulvinar porttitor. Nulla facilisi. Donec volutpat hendrerit est vitae mattis. Donec tincidunt congue tincidunt. Aliquam erat lectus, volutpat viverra posuere a, tempus eu augue. Nullam molestie orci vitae mauris malesuada tempus. In pulvinar quam nec ultrices maximus. Phasellus faucibus posuere lectus. Donec maximus vestibulum fringilla. Curabitur elit ex, luctus nec dapibus sit amet, eleifend at sem. Ut imperdiet pellentesque sagittis. Fusce lobortis venenatis arcu eu facilisis.
+
+Proin nec arcu eget nulla tincidunt porta ut at nisl. Donec nulla diam, feugiat id nibh quis, condimentum maximus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex non est egestas fermentum. Aliquam malesuada enim eget aliquet ullamcorper. Proin ornare tempor ex, in semper ligula efficitur eget. Pellentesque iaculis, nisi vitae congue consequat, neque lectus hendrerit est, nec venenatis elit tortor in dolor. Curabitur porttitor commodo nunc in aliquet. Ut semper semper quam quis porta. Praesent malesuada ipsum non vulputate hendrerit.
+
+Nunc tempor convallis maximus. Mauris imperdiet turpis ac mauris interdum, sit amet fermentum dui cursus. Fusce id diam eu ipsum luctus porttitor rhoncus sed massa. Sed vitae massa efficitur, efficitur libero nec, convallis massa. In tempus odio velit, eu venenatis orci dapibus nec. Praesent tincidunt ex sed convallis tincidunt. Donec luctus luctus congue. Orhon</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Description4" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu enim, euismod eget condimentum non, tempor ac ante. Aliquam finibus lobortis velit quis placerat. Mauris suscipit risus vitae aliquam tincidunt. Nulla facilisi. Sed justo tortor, dictum sed arcu non, euismod rutrum tellus. Mauris id lorem tortor. Integer nec purus in orci elementum sodales eu sed augue. Proin blandit, libero lobortis aliquet hendrerit, metus metus gravida magna, a imperdiet velit dui ut nisi.
+
+Sed mollis tortor blandit, interdum lacus et, ullamcorper nulla. Vestibulum non arcu quis turpis pulvinar porttitor. Nulla facilisi. Donec volutpat hendrerit est vitae mattis. Donec tincidunt congue tincidunt. Aliquam erat lectus, volutpat viverra posuere a, tempus eu augue. Nullam molestie orci vitae mauris malesuada tempus. In pulvinar quam nec ultrices maximus. Phasellus faucibus posuere lectus. Donec maximus vestibulum fringilla. Curabitur elit ex, luctus nec dapibus sit amet, eleifend at sem. Ut imperdiet pellentesque sagittis. Fusce lobortis venenatis arcu eu facilisis.
+
+Proin nec arcu eget nulla tincidunt porta ut at nisl. Donec nulla diam, feugiat id nibh quis, condimentum maximus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex non est egestas fermentum. Aliquam malesuada enim eget aliquet ullamcorper. Proin ornare tempor ex, in semper ligula efficitur eget. Pellentesque iaculis, nisi vitae congue consequat, neque lectus hendrerit est, nec venenatis elit tortor in dolor. Curabitur porttitor commodo nunc in aliquet. Ut semper semper quam quis porta. Praesent malesuada ipsum non vulputate hendrerit.
+
+Nunc tempor convallis maximus. Mauris imperdiet turpis ac mauris interdum, sit amet fermentum dui cursus. Fusce id diam eu ipsum luctus porttitor rhoncus sed massa. Sed vitae massa efficitur, efficitur libero nec, convallis massa. In tempus odio velit, eu venenatis orci dapibus nec. Praesent tincidunt ex sed convallis tincidunt. Donec luctus luctus congue. Orhon</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Description5" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu enim, euismod eget condimentum non, tempor ac ante. Aliquam finibus lobortis velit quis placerat. Mauris suscipit risus vitae aliquam tincidunt. Nulla facilisi. Sed justo tortor, dictum sed arcu non, euismod rutrum tellus. Mauris id lorem tortor. Integer nec purus in orci elementum sodales eu sed augue. Proin blandit, libero lobortis aliquet hendrerit, metus metus gravida magna, a imperdiet velit dui ut nisi.
+
+Sed mollis tortor blandit, interdum lacus et, ullamcorper nulla. Vestibulum non arcu quis turpis pulvinar porttitor. Nulla facilisi. Donec volutpat hendrerit est vitae mattis. Donec tincidunt congue tincidunt. Aliquam erat lectus, volutpat viverra posuere a, tempus eu augue. Nullam molestie orci vitae mauris malesuada tempus. In pulvinar quam nec ultrices maximus. Phasellus faucibus posuere lectus. Donec maximus vestibulum fringilla. Curabitur elit ex, luctus nec dapibus sit amet, eleifend at sem. Ut imperdiet pellentesque sagittis. Fusce lobortis venenatis arcu eu facilisis.
+
+Proin nec arcu eget nulla tincidunt porta ut at nisl. Donec nulla diam, feugiat id nibh quis, condimentum maximus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex non est egestas fermentum. Aliquam malesuada enim eget aliquet ullamcorper. Proin ornare tempor ex, in semper ligula efficitur eget. Pellentesque iaculis, nisi vitae congue consequat, neque lectus hendrerit est, nec venenatis elit tortor in dolor. Curabitur porttitor commodo nunc in aliquet. Ut semper semper quam quis porta. Praesent malesuada ipsum non vulputate hendrerit.
+
+Nunc tempor convallis maximus. Mauris imperdiet turpis ac mauris interdum, sit amet fermentum dui cursus. Fusce id diam eu ipsum luctus porttitor rhoncus sed massa. Sed vitae massa efficitur, efficitur libero nec, convallis massa. In tempus odio velit, eu venenatis orci dapibus nec. Praesent tincidunt ex sed convallis tincidunt. Donec luctus luctus congue. Orhon</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Description6" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu enim, euismod eget condimentum non, tempor ac ante. Aliquam finibus lobortis velit quis placerat. Mauris suscipit risus vitae aliquam tincidunt. Nulla facilisi. Sed justo tortor, dictum sed arcu non, euismod rutrum tellus. Mauris id lorem tortor. Integer nec purus in orci elementum sodales eu sed augue. Proin blandit, libero lobortis aliquet hendrerit, metus metus gravida magna, a imperdiet velit dui ut nisi.
+
+Sed mollis tortor blandit, interdum lacus et, ullamcorper nulla. Vestibulum non arcu quis turpis pulvinar porttitor. Nulla facilisi. Donec volutpat hendrerit est vitae mattis. Donec tincidunt congue tincidunt. Aliquam erat lectus, volutpat viverra posuere a, tempus eu augue. Nullam molestie orci vitae mauris malesuada tempus. In pulvinar quam nec ultrices maximus. Phasellus faucibus posuere lectus. Donec maximus vestibulum fringilla. Curabitur elit ex, luctus nec dapibus sit amet, eleifend at sem. Ut imperdiet pellentesque sagittis. Fusce lobortis venenatis arcu eu facilisis.
+
+Proin nec arcu eget nulla tincidunt porta ut at nisl. Donec nulla diam, feugiat id nibh quis, condimentum maximus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex non est egestas fermentum. Aliquam malesuada enim eget aliquet ullamcorper. Proin ornare tempor ex, in semper ligula efficitur eget. Pellentesque iaculis, nisi vitae congue consequat, neque lectus hendrerit est, nec venenatis elit tortor in dolor. Curabitur porttitor commodo nunc in aliquet. Ut semper semper quam quis porta. Praesent malesuada ipsum non vulputate hendrerit.
+
+Nunc tempor convallis maximus. Mauris imperdiet turpis ac mauris interdum, sit amet fermentum dui cursus. Fusce id diam eu ipsum luctus porttitor rhoncus sed massa. Sed vitae massa efficitur, efficitur libero nec, convallis massa. In tempus odio velit, eu venenatis orci dapibus nec. Praesent tincidunt ex sed convallis tincidunt. Donec luctus luctus congue. Orhon</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Description7" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu enim, euismod eget condimentum non, tempor ac ante. Aliquam finibus lobortis velit quis placerat. Mauris suscipit risus vitae aliquam tincidunt. Nulla facilisi. Sed justo tortor, dictum sed arcu non, euismod rutrum tellus. Mauris id lorem tortor. Integer nec purus in orci elementum sodales eu sed augue. Proin blandit, libero lobortis aliquet hendrerit, metus metus gravida magna, a imperdiet velit dui ut nisi.
+
+Sed mollis tortor blandit, interdum lacus et, ullamcorper nulla. Vestibulum non arcu quis turpis pulvinar porttitor. Nulla facilisi. Donec volutpat hendrerit est vitae mattis. Donec tincidunt congue tincidunt. Aliquam erat lectus, volutpat viverra posuere a, tempus eu augue. Nullam molestie orci vitae mauris malesuada tempus. In pulvinar quam nec ultrices maximus. Phasellus faucibus posuere lectus. Donec maximus vestibulum fringilla. Curabitur elit ex, luctus nec dapibus sit amet, eleifend at sem. Ut imperdiet pellentesque sagittis. Fusce lobortis venenatis arcu eu facilisis.
+
+Proin nec arcu eget nulla tincidunt porta ut at nisl. Donec nulla diam, feugiat id nibh quis, condimentum maximus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ex non est egestas fermentum. Aliquam malesuada enim eget aliquet ullamcorper. Proin ornare tempor ex, in semper ligula efficitur eget. Pellentesque iaculis, nisi vitae congue consequat, neque lectus hendrerit est, nec venenatis elit tortor in dolor. Curabitur porttitor commodo nunc in aliquet. Ut semper semper quam quis porta. Praesent malesuada ipsum non vulputate hendrerit.
+
+Nunc tempor convallis maximus. Mauris imperdiet turpis ac mauris interdum, sit amet fermentum dui cursus. Fusce id diam eu ipsum luctus porttitor rhoncus sed massa. Sed vitae massa efficitur, efficitur libero nec, convallis massa. In tempus odio velit, eu venenatis orci dapibus nec. Praesent tincidunt ex sed convallis tincidunt. Donec luctus luctus congue. Orhon</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Example1" xml:space="preserve">
+    <value>Example 1</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Example2" xml:space="preserve">
+    <value>Example 2</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Example3" xml:space="preserve">
+    <value>Example 3</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Example4" xml:space="preserve">
+    <value>Example 4</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Example5" xml:space="preserve">
+    <value>Example 5</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Example6" xml:space="preserve">
+    <value>Example 6</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Example7" xml:space="preserve">
+    <value>Example 7</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTite" xml:space="preserve">
+    <value>Ville</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTitel" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTitel1" xml:space="preserve">
+    <value>Ancienne Manufacture</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTitel2" xml:space="preserve">
+    <value>Bar Typique</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTitel3" xml:space="preserve">
+    <value>Exemple Collection Musée</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTitel4" xml:space="preserve">
+    <value>Gravure Historique</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTitel5" xml:space="preserve">
+    <value>Histoire Du Patrimoine</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTitel6" xml:space="preserve">
+    <value>Spécialité Locale</value>
+  </data>
+  <data name="MenuPage_TestItinerary_IllustrationsTitel7" xml:space="preserve">
+    <value>Travail Du Verre</value>
+  </data>
+  <data name="MenuPage_TestItinerary_Titel" xml:space="preserve">
+    <value>Test itinerary</value>
+  </data>
+  <data name="MenuPage_TutorialLabel" xml:space="preserve">
+    <value>Lire le tutoriel</value>
+  </data>
+  <data name="MenuPage_TwitterLabel" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="Menu_PageTitle" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MessageDetail_LoadingMsg" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="MessageDetail_MsgAdded" xml:space="preserve">
+    <value>Message saved to favorite</value>
+    <comment>Message enregistré dans les favoris !</comment>
+  </data>
+  <data name="MessageDetail_PageTitle" xml:space="preserve">
+    <value>Message's details</value>
+  </data>
+  <data name="MessageMap_InformationLabel" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="MessageMap_mapPreloadingFail" xml:space="preserve">
+    <value />
+    <comment>Un problème est survenu lors du téléchargement de la carte, vérifiez le réseau et réessayez.</comment>
+  </data>
+  <data name="MessageMap_mapPreloadingSuccess" xml:space="preserve">
+    <value />
+    <comment>Téléchargement de la carte réussi</comment>
+  </data>
+  <data name="MessageMap_msgPreloadingFail" xml:space="preserve">
+    <value>All messages could not be loaded, check the network</value>
+    <comment>Tous les messages n'ont pas pu être préchargés, vérifiez le réseau</comment>
+  </data>
+  <data name="MessageMap_msgPreloadingSuccess" xml:space="preserve">
+    <value>All the steps are preloaded, the map will now be downloaded, it may take a little while.</value>
+    <comment>Tous les messages sont préchargés. Vous pourrez les consulter même si la connexion réseau est faible.</comment>
+  </data>
+  <data name="MessageMap_noneItinerarySelected" xml:space="preserve">
+    <value>You selected none itinerary</value>
+    <comment>Vous n'avez sélectionné aucun parcours!</comment>
+  </data>
+  <data name="MessageMap_okLabel" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="MessageMap_PageTitle" xml:space="preserve">
+    <value>Step's map</value>
+  </data>
+  <data name="MessageMap_WarningLabel" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PayPage_approvalProblem" xml:space="preserve">
+    <value>Please accet the terms and conditions of use</value>
+    <comment>Veuillez accepter les conditions générales de vente</comment>
+  </data>
+  <data name="PayPage_buyButtonText" xml:space="preserve">
+    <value>Buy itinerary</value>
+  </data>
+  <data name="PayPage_cardCvcLabel" xml:space="preserve">
+    <value>CVV</value>
+  </data>
+  <data name="PayPage_cardCvcPlaceHolder" xml:space="preserve">
+    <value>XXX</value>
+  </data>
+  <data name="PayPage_cardDateLabel" xml:space="preserve">
+    <value>Expire in</value>
+  </data>
+  <data name="PayPage_cardDatePlaceHolder" xml:space="preserve">
+    <value>MM/YY</value>
+  </data>
+  <data name="PayPage_cardHolderLabel" xml:space="preserve">
+    <value>Associated name</value>
+  </data>
+  <data name="PayPage_cardHolderPlaceHolder" xml:space="preserve">
+    <value>e.g.: Dupond</value>
+  </data>
+  <data name="PayPage_cardNumberLabel" xml:space="preserve">
+    <value>Card's number</value>
+  </data>
+  <data name="PayPage_cardNumberPlaceHolder" xml:space="preserve">
+    <value>XXXX XXXX XXXX XXXX</value>
+  </data>
+  <data name="PayPage_cgvApproval" xml:space="preserve">
+    <value>I have read and agreed to the Conditions of Sales</value>
+    <comment>J'accepte les conditions de vente</comment>
+  </data>
+  <data name="PayPage_dataAnApprovalProblem" xml:space="preserve">
+    <value />
+    <comment>Veuillez correctement renseigner vos données et accepter les conditions générales de vente</comment>
+  </data>
+  <data name="PayPage_dataProblem" xml:space="preserve">
+    <value />
+    <comment>Veuillez correctement renseigner vos données</comment>
+  </data>
+  <data name="PayPage_DeleteCard" xml:space="preserve">
+    <value>Do you want to forget this card ?</value>
+    <comment>Voulez-vous supprimer cette carte ?</comment>
+  </data>
+  <data name="PayPage_ForgetCard" xml:space="preserve">
+    <value>Forget the card</value>
+    <comment>Supprimer la carte</comment>
+  </data>
+  <data name="PayPage_itineraryEmailLabel" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="PayPage_itineraryEmailPlaceholder" xml:space="preserve">
+    <value>Enter your email</value>
+    <comment>Entrez votre Email</comment>
+  </data>
+  <data name="PayPage_itineraryTitle" xml:space="preserve">
+    <value>Itinerary's titel</value>
+    <comment>Titre du parcours</comment>
+  </data>
+  <data name="PayPage_link_CGV" xml:space="preserve">
+    <value>See  General Conditions of Sales</value>
+    <comment>Voir les Conditions Générales de Vente</comment>
+  </data>
+  <data name="PayPage_PageTitle" xml:space="preserve">
+    <value>Purchase the itinerary</value>
+    <comment>Achat du parcours</comment>
+  </data>
+  <data name="PayPage_paymentFailed" xml:space="preserve">
+    <value>Paiement failed, please try again</value>
+    <comment>Le paiement a échouer, veuillez recommencer</comment>
+  </data>
+  <data name="PayPage_paymentSuceeded" xml:space="preserve">
+    <value>Paiement succeeded, you can follow the itinerary</value>
+    <comment>Le paiement a réussi, vous pouvez consulter le parcours</comment>
+  </data>
+  <data name="PayPage_priceHtLabel" xml:space="preserve">
+    <value>excluding VAT</value>
+    <comment>Prix HT</comment>
+  </data>
+  <data name="PayPage_priceTtcLabel" xml:space="preserve">
+    <value>including VAT</value>
+    <comment>Prix TTC</comment>
+  </data>
+  <data name="PayPage_rememberData" xml:space="preserve">
+    <value>Save my datas</value>
+    <comment>Se souvenir des de mes données</comment>
+  </data>
+  <data name="PayPage_tvaLabel" xml:space="preserve">
+    <value>VAT</value>
+    <comment>TVA</comment>
+  </data>
+  <data name="RatingPage_mainLabelText" xml:space="preserve">
+    <value />
+    <comment>Vous venez de terminer le parcours. Laissez un commentaire pour dire ce qui vous a plu ou suggérer des améliorations à l'auteur(e), merci.</comment>
+  </data>
+  <data name="RatingPage_noteLabelText" xml:space="preserve">
+    <value>Rating</value>
+    <comment>Note</comment>
+  </data>
+  <data name="RatingPage_PageTitle" xml:space="preserve">
+    <value>Give your feedback !</value>
+    <comment>Donnez votre avis !</comment>
+  </data>
+  <data name="RatingPage_submitButton" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ReportPage_mainLabelText" xml:space="preserve">
+    <value>Your comment will be sent to the itinerary's administrator</value>
+  </data>
+  <data name="ReportPage_PageTitle" xml:space="preserve">
+    <value>Report Abuses</value>
+  </data>
+  <data name="ReportPage_ReportLabel" xml:space="preserve">
+    <value>Report abuses</value>
+  </data>
+  <data name="TestItinerary_Msg" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TestItinerary_MsgType" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ThemeDictionary_ArchitectureLabel" xml:space="preserve">
+    <value>Architecture</value>
+  </data>
+  <data name="ThemeDictionary_HistoryLabel" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="ThemeDictionary_LeisureLabel" xml:space="preserve">
+    <value>Leasure</value>
+  </data>
+  <data name="ThemeDictionary_Others" xml:space="preserve">
+    <value>Autres</value>
+  </data>
+  <data name="ThemeDictionary_ParkLabel" xml:space="preserve">
+    <value>Parc</value>
+  </data>
+  <data name="ThemeDictionary_StreetArt" xml:space="preserve">
+    <value>Street Art</value>
+  </data>
+  <data name="ThemeDictionary_UrbanismLabel" xml:space="preserve">
+    <value>Urbanism</value>
+  </data>
+  <data name="TutorialPage_PageTitle" xml:space="preserve">
+    <value />
+    <comment>Tutoriel</comment>
+  </data>
+  <data name="Tutorial_text_1" xml:space="preserve">
+    <value />
+    <comment>Lorsque que l'application est lancée une première page s'affiche avec une liste des parcours trouvés localement.</comment>
+  </data>
+  <data name="Tutorial_text_10" xml:space="preserve">
+    <value />
+    <comment>Dans le cas d'un parcours circuit, les messages sont consultables seulement dans un ordre pré-défini. Il faut avoir vu le premier message pour pouvoir voir le deuxième message, etc. Les messages qui ne sont pas encore visibles sont indiqués avec un icône rouge et une croix. Dans l'exemple suivant le premier message est visualisable, mais pas le second. Celui-ce le deviendra seulement après consultation du premier message :</comment>
+  </data>
+  <data name="Tutorial_text_11" xml:space="preserve">
+    <value />
+    <comment>En appuyant sur "Précharger", l'application charge dans l'appareil les photos et les textes des messages. Il est intéressant d'utiliser cette fonctionnalité quand une connexion wifi ou réseau de bonne qualité est disponible.
+
+Lorsque vous approchez de la position d'un message consultable, l'icône devint vert et la carte zoome sur la position:</comment>
+  </data>
+  <data name="Tutorial_text_12" xml:space="preserve">
+    <value />
+    <comment>Il devient alors possible de consulter le message en appuyant sur cet icône :</comment>
+  </data>
+  <data name="Tutorial_text_13" xml:space="preserve">
+    <value />
+    <comment>Lorsque vous appuyez sur la flèche en haut à gauche, un icône rose "validé" s'affiche à la place de l'icône vert. Lorsqu'un message a été vu, il est possible de le revoir en appuyant simplement sur l'icône rose, sans avoir à retourner physiquement à proximité.</comment>
+  </data>
+  <data name="Tutorial_text_14" xml:space="preserve">
+    <value />
+    <comment>Lorsque vous visionnez le dernier message d'un parcours, une page de notation s'affiche et vous invite à noter le parcours et à rédiger un commentaire :</comment>
+  </data>
+  <data name="Tutorial_text_2" xml:space="preserve">
+    <value />
+    <comment>Pour changer les filtres de recherche, appuyer sur "Filtres", la page suivante s'affiche :</comment>
+  </data>
+  <data name="Tutorial_text_3" xml:space="preserve">
+    <value />
+    <comment>Par exemple en appuyant sur "Langue(s)", vous pouvez choisir la langue de rédaction des parcours recherchés :</comment>
+  </data>
+  <data name="Tutorial_text_4" xml:space="preserve">
+    <value />
+    <comment>Les réglages des filtres sont sauvegardés automatiquement. 
+En appuyant deux fois sur la flèche en haut à gauche, vous retournez à la page d'accueil. Vous pouvez alors actualiser la liste en appuyant sur "Actualiser" ou en tirant la liste des parcours vers le bas.</comment>
+  </data>
+  <data name="Tutorial_text_5" xml:space="preserve">
+    <value />
+    <comment>En appuyant sur une ligne de la liste, les détails du parcours s'affichent:</comment>
+  </data>
+  <data name="Tutorial_text_6" xml:space="preserve">
+    <value />
+    <comment>En appuyant sur "Aperçu", une carte avec la position des message s'affiche:</comment>
+  </data>
+  <data name="Tutorial_text_7" xml:space="preserve">
+    <value />
+    <comment>En appuyant deux fois sur la flèche en haut à gauche, vous retournez à la page d'accueil.
+Vous pouvez alors sélectionner le parcours en appuyant sur le switch. Ill est possible de sélectionner plusieurs parcours.</comment>
+  </data>
+  <data name="Tutorial_text_8" xml:space="preserve">
+    <value />
+    <comment>En appuyant sur "Voir carte des messages", l'application génère alors une carte avec tous les messages des parcours sélectionnés. Les messages qui sont consultable sont indiqués par un icône bleu avec une flèche vers le bas.
+
+Dans le cas d'un parcours "Ballade", l'icône est bleu fonçé:</comment>
+  </data>
+  <data name="Tutorial_text_9" xml:space="preserve">
+    <value />
+    <comment>Dans le cas d'un parcours "Circuit", l'icône est bleu clair:</comment>
+  </data>
+  <data name="TypeParcoursDictionary_TourLabel" xml:space="preserve">
+    <value>Tour</value>
+  </data>
+  <data name="TypeParcoursDictionary_WalkLabel" xml:space="preserve">
+    <value>Walk</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>

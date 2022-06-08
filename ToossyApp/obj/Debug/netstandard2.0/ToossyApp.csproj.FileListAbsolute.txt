@@ -1,0 +1,15 @@
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\bin\Debug\netstandard2.0\ToossyApp.deps.json
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\bin\Debug\netstandard2.0\ToossyApp.dll
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\bin\Debug\netstandard2.0\ToossyApp.pdb
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\bin\Debug\netstandard2.0\fr-FR\ToossyApp.resources.dll
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.csprojResolveAssemblyReference.cache
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.Resources.AppResources.resources
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.Resources.AppResources.fr-FR.resources
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.csproj.GenerateResource.Cache
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.csproj.CoreCompileInputs.cache
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.App.xaml.g.cs
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.AssemblyInfoInputs.cache
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.AssemblyInfo.cs
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\fr-FR\ToossyApp.resources.dll
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.dll
+C:\Users\conta\source\repos\ToossyApp\ToossyApp\ToossyApp\obj\Debug\netstandard2.0\ToossyApp.pdb
